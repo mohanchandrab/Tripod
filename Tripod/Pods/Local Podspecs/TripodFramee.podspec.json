@@ -1,0 +1,28 @@
+{
+  "name": "TripodFramee",
+  "version": "0.0.1",
+  "summary": "Use for testing application in very easy way to send crashes and images.",
+  "description": "For generating crashes and ui issues directly from this framework",
+  "homepage": "https://demo01.gendevs.com",
+  "license": "MIT",
+  "authors": {
+    "Mohan": "mohanab@gendevs.com"
+  },
+  "source": {
+    "git": "https://github.com/mohanchandrab/TripodFrame.git",
+    "tag": "0.0.1"
+  },
+  "source_files": [
+    "TripodFramee",
+    "TripodFrame//*.{}"
+  ],
+  "resources": "TripodFrame/Resources/**/*.{png}",
+  "exclude_files": "Classes/Exclude",
+  "vendored_frameworks": "TripodFrame.framework",
+  "platforms": {
+    "osx": null,
+    "ios": null,
+    "tvos": null,
+    "watchos": null
+  }
+}

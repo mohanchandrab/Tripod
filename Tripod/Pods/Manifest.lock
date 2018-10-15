@@ -1,0 +1,16 @@
+PODS:
+  - TripodFramee (0.0.1)
+
+DEPENDENCIES:
+  - TripodFramee (from `../TripodFramee`)
+
+EXTERNAL SOURCES:
+  TripodFramee:
+    :path: "../TripodFramee"
+
+SPEC CHECKSUMS:
+  TripodFramee: ee711fa5ac8508ca4f194e705cb6f6571a087519
+
+PODFILE CHECKSUM: 387b91fe526618cf655888be88a44d4417fa3fe4
+
+COCOAPODS: 1.5.3

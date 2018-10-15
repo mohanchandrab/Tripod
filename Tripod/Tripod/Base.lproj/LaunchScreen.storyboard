@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Launch Image" translatesAutoresizingMaskIntoConstraints="NO" id="076-u1-f4z">
+                                <rect key="frame" x="20" y="28" width="280" height="436"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Powerd By        General Developers" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TFy-Nq-BB1">
+                                <rect key="frame" x="68" y="488" width="163" height="49"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="49" id="Fxo-eb-PBd"/>
+                                    <constraint firstAttribute="height" constant="49" id="fLM-ex-wX7"/>
+                                    <constraint firstAttribute="width" constant="163" id="siE-h4-dqD"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="italicSystem" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="fLM-ex-wX7"/>
+                                        <exclude reference="siE-h4-dqD"/>
+                                    </mask>
+                                </variation>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="TFy-Nq-BB1" secondAttribute="bottom" constant="31" id="2r5-zr-cmV"/>
+                            <constraint firstItem="TFy-Nq-BB1" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="52" id="7zw-Fy-k4X"/>
+                            <constraint firstItem="TFy-Nq-BB1" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="E24-S4-l38"/>
+                            <constraint firstItem="076-u1-f4z" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="8" symbolic="YES" id="IUX-DC-Te3"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="TFy-Nq-BB1" secondAttribute="bottom" constant="31" id="Iub-Ux-aPV"/>
+                            <constraint firstItem="TFy-Nq-BB1" firstAttribute="top" secondItem="076-u1-f4z" secondAttribute="bottom" constant="24" id="VI4-Up-ayO"/>
+                            <constraint firstItem="076-u1-f4z" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="VhE-aA-uRR"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="TFy-Nq-BB1" secondAttribute="trailing" constant="73" id="b7N-S9-xNc"/>
+                            <constraint firstItem="TFy-Nq-BB1" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="52" id="fE3-iu-mfX"/>
+                            <constraint firstItem="TFy-Nq-BB1" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="kcd-In-Bmj"/>
+                            <constraint firstItem="076-u1-f4z" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="4" id="uBt-7Q-xGw"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="7zw-Fy-k4X"/>
+                                <exclude reference="E24-S4-l38"/>
+                                <exclude reference="kcd-In-Bmj"/>
+                                <exclude reference="Iub-Ux-aPV"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Launch Image" width="430" height="430"/>
+    </resources>
+</document>
